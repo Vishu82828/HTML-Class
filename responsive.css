@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: rgb(151, 153, 156);
+    height: 10vh;
+    align-items: center;
+}
+.navbar ul{
+    /* position: absolute; */
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.navbar label{
+    display: none;
+}
+input{
+    display: none;
+}
+#check:checked~.navbar ul{
+    display: block;
+}
+@media screen and (max-width:500px) {
+    .navbar label{
+        display: block;
+    }
+    .navbar ul{
+        position: absolute;
+        top: 70px;
+        width: 100%;
+        /* background-color: brown; */
+        display: none;
+        text-align: right;
+        right: 50px;
+        /* margin-top: 170px; */
+        /* margin-left: 170px; */
+    }
+}

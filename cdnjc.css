@@ -1,0 +1,17 @@
+.CH1{
+    color: aqua;
+}
+.CH2{
+    color: blue;
+}
+.CH{
+    color: brown;
+}
+.CH4{
+    color: yellow;
+}
+.pr{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
