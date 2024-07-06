@@ -1,0 +1,23 @@
+h1:first-child{
+    background-color: rgb(66, 66, 174);
+}
+h1:last-child{
+    background-color: aqua;
+}
+h2:nth-child(even){
+    background-color: rgb(156, 206, 68);
+}
+input::placeholder{
+    color: rgb(37, 92, 133);
+}
+.pa1::first-line{
+    background-color: aquamarine;
+}
+.pr2::first-letter{
+    font-size: 28px;
+    color: red;
+}
+.sl::selection{
+    background-color: red;
+    color: yellow;
+}

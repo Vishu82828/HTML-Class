@@ -1,0 +1,19 @@
+.ch{
+    background-color: aquamarine;
+    border: 2px solid;
+}
+.parent{
+    display: grid;
+    height: 200px;
+    grid-template-columns: auto auto auto auto;
+}
+@media screen and (min-width:450px) and (max-width:800px) {
+    .parent{
+        grid-template-columns: repeat(2,auto);
+    }
+}
+@media screen and (max-width:449px) {
+    .parent{
+        grid-template-columns: auto;
+    }
+}
